@@ -39,3 +39,13 @@ describe('Find the smallest value', () => {
     expect(getMin([10, 8, 4, 6, 2])).toBe (2)
   })
 })
+
+describe('Find the even and odd numbers', () => {
+  test('returns true for 8', () => {
+    expect(isEven(8)).toBeTruthy()
+  })
+  
+  test('returns false for 3', () => {
+  expect(isEven(3)).toBeFalsy()
+  })
+})
