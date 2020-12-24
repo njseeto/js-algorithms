@@ -4,6 +4,7 @@ const fibonacci = require('../fibonacci')
 const getMin = require('../smallest-value')
 const isEven = require('../even-odd')
 const sumUp = require('../sum-up')
+const isPowerOfTwo = require('../is-power-of-two')
 
 describe('Takes an input and sums up all numbers including input', () => {
   test('3 should equal 6', () => {
@@ -58,5 +59,19 @@ describe('Find the even and odd numbers', () => {
   
   test('returns false for 3', () => {
   expect(isEven(3)).toBeFalsy()
+  })
+})
+
+describe('Power of two', () => {
+  test('returns true for 8', () => {
+    expect(isPowerOfTwo(32)).toBeTruthy()
+  })
+  
+  test('returns false for 20', () => {
+  expect(isPowerOfTwo(20)).toBeFalsy()
+  })
+  
+  test('returns true for 1125899906842624', () => {
+  expect(isPowerOfTwo(1125899906842624)).toBeTruthy()
   })
 })
