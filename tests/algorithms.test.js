@@ -3,6 +3,17 @@ const isPrime = require('../primality')
 const fibonacci = require('../fibonacci')
 const getMin = require('../smallest-value')
 const isEven = require('../even-odd')
+const sumUp = require('../sum-up')
+
+describe('Takes an input and sums up all numbers including input', () => {
+  test('3 should equal 6', () => {
+    expect(sumUp(3)).toBe(6)
+  })
+
+  test('4 should equal 10', () => {
+    expect(sumUp(4)).toBe(10)
+  })
+})
 
 describe('Sums all numbers in an array', () => {
   test('adds 1 + 3 + 10 to equal 14', () => {
