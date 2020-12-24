@@ -1,9 +1,5 @@
 const sumUp = (n) => {
-	let result = 0
-	for(let i = 1; i <= n; i++){
-		result = result + i
-	}
-	return result
+	return (n / 2) * (1 + n)
 }
 
 module.exports = sumUp
