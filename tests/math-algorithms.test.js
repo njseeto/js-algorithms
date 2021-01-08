@@ -1,10 +1,10 @@
-const func = require('../sum-numbers')
-const isPrime = require('../primality')
-const fibonacci = require('../fibonacci')
-const getMin = require('../smallest-value')
-const isEven = require('../even-odd')
-const sumUp = require('../sum-up')
-const isPowerOfTwo = require('../is-power-of-two')
+const func = require('../math-algorithms/sum-numbers')
+const isPrime = require('../math-algorithms/primality')
+const fibonacci = require('../math-algorithms/fibonacci')
+const getMin = require('../math-algorithms/smallest-value')
+const isEven = require('../math-algorithms/even-odd')
+const sumUp = require('../math-algorithms/sum-up')
+const isPowerOfTwo = require('../math-algorithms/is-power-of-two')
 
 describe('Takes an input and sums up all numbers including input', () => {
   test('3 should equal 6', () => {
