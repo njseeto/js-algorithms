@@ -5,6 +5,7 @@ const getMin = require('../math-algorithms/smallest-value')
 const isEven = require('../math-algorithms/even-odd')
 const sumUp = require('../math-algorithms/sum-up')
 const isPowerOfTwo = require('../math-algorithms/is-power-of-two')
+const factorial = require('../math-algorithms/factorial')
 
 describe('Takes an input and sums up all numbers including input', () => {
   test('3 should equal 6', () => {
@@ -48,7 +49,7 @@ describe('Primality Test', () => {
 
 describe('Find the smallest value', () => {
   test('returns 2', () => {
-    expect(getMin([10, 8, 4, 6, 2])).toBe (2)
+    expect(getMin([10, 8, 4, 6, 2])).toBe(2)
   })
 })
 
@@ -73,5 +74,14 @@ describe('Power of two', () => {
   
   test('returns true for 1125899906842624', () => {
   expect(isPowerOfTwo(1125899906842624)).toBeTruthy()
+  })
+})
+
+describe('Factorial of 6', () => {
+  test('returns 6 for input 3', () => {
+    expect(factorial(3)).toBe(6)
+  })
+  test('returns 120 for input 5', () => {
+    expect(factorial(5)).toBe(120)
   })
 })

@@ -13,6 +13,7 @@ This repo provides information on common algorithms, solutions and their time co
 - Find the even and odd numbers
 - Calculate the sum of an array
 - Check is a number is a power of two
+- Factorial Algorithm
 
 ---
 ## Tests
