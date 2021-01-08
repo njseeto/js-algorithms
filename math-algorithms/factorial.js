@@ -1,11 +1,10 @@
 const factorial = (n) => {
-	let result = 1
-	for(let i = 1; i < n; i++){
-		result += result*i
+	if(n === 1){
+		return 1
 	}
-	return result
+	return n * factorial(n - 1) 
 }
 
 module.exports = factorial
 
-// TIme Complexity: O(n),  Linear Time
+// Time Complexity: O(n),  Linear Time
