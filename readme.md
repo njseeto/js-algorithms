@@ -15,6 +15,10 @@ This repo provides information on common algorithms, solutions and their time co
 - Check is a number is a power of two
 - Factorial Algorithm
 
+### Recursion and Dynamic Programming
+- Fibonacci (with Recursion)
+- Fibonacci (with Recursion and Memoization ie: dynamic programming)
+
 ---
 ## Tests
 Each algorithm group will have tests:
