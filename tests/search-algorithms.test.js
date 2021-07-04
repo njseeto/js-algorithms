@@ -1,11 +1,13 @@
 const findElement = require("../search-algorithms/linear-search")
 const findObj = require("../search-algorithms/linear-search-objects")
+const binarySearch = require("../search-algorithms/binary-search")
 
 let arr = [5, -3, 10, -1, 12, 6]
 let ObjArr = [
   {name: 'nat', age: 32},
   {name: 'bear', age: 23}
 ]
+let sortedArr = [1, 8, 11, 21, 33, 56, 87, 100]
 
 describe('Finds the element in an array', () => {
   test('finds the element index', () => {
@@ -40,5 +42,11 @@ describe('Does not find the object', () => {
         return el.name === it.name
       }
       )).toBe('Object not found')
+    })
+  })
+
+describe('Binary search', () => {
+  test('finds the element', () => {
+    expect(binarySearch(sortedArr, 87)).toBe(6)
     })
   })
