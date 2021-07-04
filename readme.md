@@ -19,10 +19,14 @@ This repo provides information on common algorithms, solutions and their time co
 - Fibonacci (with Recursion)
 - Fibonacci (with Recursion and Memoization ie: dynamic programming)
 
+### Search Algorithms
+- Linear Search; finds an the index of an element in an array
+
 ---
 ## Tests
 Each algorithm group will have tests:
 - `math-algorithms.test.js`
+- `search-algorithms.test.js`
 
 To run the tests:
 - Install node dependencies `npm i`
