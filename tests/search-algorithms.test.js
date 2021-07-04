@@ -15,7 +15,7 @@ describe('Finds the element in an array', () => {
 
 describe('Does not find element in the array', () => {  
   test('shows correct message', () => {
-    expect(findElement(arr, 8)).toBe('Element not found')
+    expect(findElement(arr, 8)).toBe(-1)
   })
 })
 
