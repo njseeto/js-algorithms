@@ -1,6 +1,7 @@
 const findElement = require("../search-algorithms/linear-search")
 const findObj = require("../search-algorithms/linear-search-objects")
 const binarySearch = require("../search-algorithms/binary-search")
+const recursiveBinarySearch = require("../search-algorithms/recursive-binary-search")
 
 let arr = [5, -3, 10, -1, 12, 6]
 let ObjArr = [
@@ -48,5 +49,11 @@ describe('Does not find the object', () => {
 describe('Binary search', () => {
   test('finds the element', () => {
     expect(binarySearch(sortedArr, 87)).toBe(6)
+    })
+  })
+
+describe('Recursive binary search', () => {
+  test('finds the element', () => {
+    expect(recursiveBinarySearch(sortedArr, 87, 0)).toBe(6)
     })
   })
