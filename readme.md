@@ -20,7 +20,8 @@ This repo provides information on common algorithms, solutions and their time co
 - Fibonacci (with Recursion and Memoization ie: dynamic programming)
 
 ### Search Algorithms
-- Linear Search; finds an the index of an element in an array
+- Linear Search; finds an the index of an element in an array in either an unordered or an ordered list
+- Binary Search; finds an element in an ordered list
 
 ---
 ## Tests
