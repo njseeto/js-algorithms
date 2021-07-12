@@ -23,11 +23,15 @@ This repo provides information on common algorithms, solutions and their time co
 - Linear Search; finds an the index of an element in an array in either an unordered or an ordered list
 - Binary Search; finds an element in an ordered list
 
+### Sorting Algorithms
+- Bubble Sort; sorts an array by comparing 2 elements. Goes through the entire array multiple times until all pairs are compared and sorted.
+
 ---
 ## Tests
 Each algorithm group will have tests:
 - `math-algorithms.test.js`
 - `search-algorithms.test.js`
+- `sorting-algorithms.test.js`
 
 To run the tests:
 - Install node dependencies `npm i`
