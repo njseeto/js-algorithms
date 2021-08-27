@@ -26,6 +26,7 @@ This repo provides information on common algorithms, solutions and their time co
 ### Sorting Algorithms
 - Bubble Sort; sorts an array by comparing 2 elements. Goes through the entire array multiple times until all pairs are compared and sorted.
 - Quicksort; divide and conquers an array. Uses a pivot element to split the array into two sub-arrays and sorts these sub-arrays recursively.
+- Merge sort; divides an array into multiple smaller arrays, consisting of no more than two elements. Sorts the smaller arrays and merges them back in order.
 
 ---
 ## Tests
