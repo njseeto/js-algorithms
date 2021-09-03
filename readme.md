@@ -3,7 +3,7 @@ My JavaScript algorithms learnings.
 ---
 ## What is in this repo?
 
-This repo provides information on common algorithms, solutions and their time complexity. These algorithms are grouped together as below:
+This repo provides information on common algorithms, solutions, their time and space complexity. These algorithms are grouped together as below:
 
 ### Math Algorithms
 - Calculate the sum of a number up to that number
