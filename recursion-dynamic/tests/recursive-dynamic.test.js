@@ -1,4 +1,4 @@
-const fib = require('../recursion-dynamic/fibonacci-recursive.js')
+const fib = require('../fibonacci-recursive.js')
 
 describe('Fibonacci algorithm', () => {
   test('The 4th element should equal 5', () => {
