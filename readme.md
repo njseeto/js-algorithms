@@ -32,6 +32,9 @@ These algorithms are grouped together as below:
 - [Quicksort](sorting-algorithms/quicksort)
 - [Merge sort](sorting-algorithms/merge-sort)
 
+### Sets (Arrays) Algorithms
+- [Cartesian Product](sets-algorithms/cartesian-product)
+
 ---
 ## Tests
 Each algorithm group will have sub-folders that contain:
