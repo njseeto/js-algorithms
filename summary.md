@@ -5,3 +5,4 @@
 | **Bubble sort**     | n               | n<sup>2</sup>       | n<sup>2</sup>       | 1                   | Compares each pair of adjacent items and swaps them if needed |
 | **Quick sort**      | n&nbsp;log(n)   | n&nbsp;log(n)       | n<sup>2</sup>       | n or log n          | Divide and conquer.<br>Divides into 2 sub-arrays: the small and large elements, based on a 'pivot' element. Recursively sort the sub-arrays.|
 | **Merge sort**      | n&nbsp;log(n)   | n&nbsp;log(n)       | n&nbsp;log(n)       | n                   | Splits the array into sub-arrays consisting of no more than two elements|
+| **Cartesian Product** | n^x           | n^x                 | n^x                 | n^x                 | Used on Sets |
