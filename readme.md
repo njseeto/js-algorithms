@@ -35,6 +35,7 @@ These algorithms are grouped together as below:
 ### Sets (Arrays) Algorithms
 - [Cartesian Product](sets-algorithms/cartesian-product)
 - [Cartesian Product Multiple Sets](sets-algorithms/cartesian-product)
+- [Permutations](sets-algorithms/permutations)
 
 ---
 ## Tests
