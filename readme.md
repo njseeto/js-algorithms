@@ -37,6 +37,10 @@ These algorithms are grouped together as below:
 - [Cartesian Product Multiple Sets](sets-algorithms/cartesian-product)
 - [Permutations](sets-algorithms/permutations)
 
+### Problem Solving
+- [Problem Solving tips](problem-solving.md)
+- [Knapsack problem](knapsack-problem/)
+
 ---
 ## Tests
 Each algorithm group will have sub-folders that contain:
