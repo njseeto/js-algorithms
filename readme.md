@@ -40,6 +40,7 @@ These algorithms are grouped together as below:
 ### Problem Solving
 - [Problem Solving tips](problem-solving.md)
 - [Knapsack problem](knapsack-problem/)
+- [Greedy vs Dynamic Algorithms](greedy-vs-dynamic/)
 
 ---
 ## Tests
