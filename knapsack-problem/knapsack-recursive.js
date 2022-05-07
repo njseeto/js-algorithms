@@ -1,4 +1,8 @@
+// Time complexity = O(n ^ 2)
+
 const knapsackRecursive = (items, maxWeight, itemIndex) => {
+  // console.log('Running')
+
   // base case
   if(maxWeight === 0 || itemIndex < 0){
     return { items: [], value: 0, weight: 0 }
