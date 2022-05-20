@@ -51,3 +51,58 @@ If we assume the `availableCoins` is flexible but the nature is the same that we
 Therefore, with these assumptions, a greedy approach is all we need to solve this problem.
 
 ------------------
+### A more difficult change making problem
+Say we have the change making problem but we use these inputs below:
+
+```
+availableCoins = [ 8, 6, 5, 1 ]
+targetValue = 11
+
+targetOutput = {
+  selectedCoins: {
+    1: 0,
+    5: 1,
+    6: 1
+  },
+  numberOfCoins: 2
+}
+```
+
+Verifying the inputs, we can assume the coins will be ordered and the target amount is specific, we must also assume that we do not know what coins we will be given in the `availableCoins` array.
+
+Here a greedy solution would not work as you would get 
+
+```
+targetOutput = {
+  selectedCoins: {
+    1: 3,
+    5: 0,
+    6: 0,
+    8: 1
+  },
+  numberOfCoins: 4
+}
+```
+
+To solve this problem, we need to know all the possible combinations, and find the one with the least number of coins. This called a Brute Force approach.
+
+A brute force approach is different to a dynamic approach because a brute force approach would iterate over an array many times, whereas a dynamic approach stores the overlapping solutions. Therefore, dynamic programming can be more efficient.
+
+### Brute Force Solution
+
+The [brute force solution]('./change-making-brute-force.js) iterates over the `availableCoins` array, and removes the first element after each full iteration (`slice(i)`).
+
+In terms of Time Complexity, we are using the Greedy algorithm which has a time complexity of O(n) which is itself within a for loop, which also has a time complexity of O(n):
+
+```
+  for (var i = 0; i < availableCoins.length; i++ ) {
+    results.push(changeMakingGreedy(availableCoins.slice(i), amount))
+  }
+```
+Then we iterate over the `results` array which itself has a time complexity of O(n)
+
+Therefore we have, O(n * n) + O(n), which becomes O(n^2) as we focus on the fastest growing curve.
+
+*Time Complexity: O(n^2)*
+
+We have a higher time complexity, as we have a more complex problem - being we don't know the `availableCoins` this time.
