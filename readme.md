@@ -41,6 +41,7 @@ These algorithms are grouped together as below:
 - [Problem Solving tips](problem-solving.md)
 - [Knapsack problem](knapsack-problem/)
 - [Greedy vs Dynamic Algorithms](greedy-vs-dynamic/)
+- [Change Making - Greedy vs Brute Force](change-making/)
 
 ---
 ## Tests
