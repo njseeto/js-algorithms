@@ -41,6 +41,7 @@ These algorithms are grouped together as below:
 - [Problem Solving tips](problem-solving.md)
 - [Knapsack problem](knapsack-problem/)
 - [Greedy vs Dynamic Algorithms](greedy-vs-dynamic/)
+- [Change Making - Greedy vs Brute Force](change-making/)
 
 ---
 ## Tests
@@ -52,3 +53,12 @@ Each algorithm group will have sub-folders that contain:
 To run the tests:
 - Install node dependencies `npm i`
 - Run tests `npm run test`
+
+---
+
+## Additional Resources
+- [Geeks for Geeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm)
+- [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
+
+## Next Steps
+- Data Structures: Understand what data structures exists, how they work and when you use them.
