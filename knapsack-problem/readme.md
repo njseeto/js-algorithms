@@ -33,7 +33,7 @@ Note: Permutations first come to mind, however, it is not the correct approach a
 Evaluate all the possible cases / solutions.
 We can illustrate the possible cases using the following decision tree.
 
-![knapsack](knapsack.png)
+![knapsack](../assets/knapsack.png)
 
 -------
 ## Knapsack with Memoization
