@@ -7,6 +7,7 @@ Steps to help you problem solve:
 - Verify the problem and the probem inputs eg: whether an array of data is of a fixed length, if the order matters etc
 - Think about the problem and derive a verbal solution (this doesn't need to be the best or final solution). Experience and practice helps with this
 - Write down a first version in code (this could be pseudo-code)
+- The first version could be a simple, greedy approach (just ensure you verify the results / try different inputs)
 - Does this solution catch all the test cases?
 - Derive the time complexity for the solution and see if you can improve it eg: can you store intermediate values?
 
@@ -17,3 +18,5 @@ Steps to help you problem solve:
 
 ### Practice makes perfect
 - Practice by diving into common algorithms and interview questions
+
+![problem-solving](/assets/problem-solving.png)
